@@ -1,5 +1,5 @@
 from selenium import webdriver
-from models.driver import browser
+from .driver import browser
 import unittest
 import os
 
