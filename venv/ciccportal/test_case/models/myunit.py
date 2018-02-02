@@ -1,7 +1,7 @@
 from selenium import webdriver
 from .driver import browser
 import unittest
-import os
+
 
 class MyTest(unittest.TestCase):
 

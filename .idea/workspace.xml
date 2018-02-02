@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6066aad7-c03f-4a75-933a-4e626a6134dd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/cicc_portal.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/ciccportal/report/html/2018-02-02 15_21_49result.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/ciccportal/report/html/2018-02-02 15_24_45result.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/ciccportal/report/html/2018-02-02 15_32_16result.html" />
-      <change beforePath="$PROJECT_DIR$/venv/ciccportal/report/image/user_empty.png" afterPath="$PROJECT_DIR$/venv/ciccportal/report/image/user_empty.png" />
-      <change beforePath="$PROJECT_DIR$/venv/ciccportal/report/image/user_pawd_true.png" afterPath="$PROJECT_DIR$/venv/ciccportal/report/image/user_pawd_true.png" />
       <change beforePath="$PROJECT_DIR$/venv/ciccportal/test_case/models/myunit.py" afterPath="$PROJECT_DIR$/venv/ciccportal/test_case/models/myunit.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/venv/ciccportal/test_case/models/myunit.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="78">
-              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -92,7 +82,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="258" />
     <option name="y" value="1" />
     <option name="width" value="1382" />
@@ -236,7 +226,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -305,7 +295,7 @@
     <entry file="file://$PROJECT_DIR$/venv/ciccportal/test_case/models/myunit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
