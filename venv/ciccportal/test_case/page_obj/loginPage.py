@@ -11,7 +11,7 @@ class login(Page):
     url = '/'
 
     #Action
-    cp_login_button_loc = (By.XPATH,'/html/body/div[1]/div[2]/div/div/div[2]/div[2]/div/div/span[2]/a')
+    cp_login_button_loc = (By.CSS_SELECTOR,'.info-all > div:nth-child(1) > span:nth-child(2)')
 
     def ciccportal_login(self):
         self.find_element(*self.cp_login_button_loc).click()
