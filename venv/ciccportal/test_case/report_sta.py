@@ -28,7 +28,7 @@ class reportTest(myunit.MyTest):
             i += 1
             rede.click()
             self.assertIn('研报详情', po.page_title())
-            function.insert_img(self.driver, "history_recommended%d.png" % i)
+            function.insert_img(self.driver, "report_list_to_detail%d.png" % i)
             break
             # self.driver.back()
             # sleep(5)
@@ -39,12 +39,15 @@ class reportTest(myunit.MyTest):
         po = report(self.driver)
         po.analyst_head_click()
         self.assertEqual('分析师简介', po.page_title())
+        function.insert_img(self.driver, "analyst_detail_from_head.png" )
         self.driver.back()
         po.analyst_small_head_click()
         self.assertEqual('分析师简介', po.page_title())
+        function.insert_img(self.driver, "analyst_detail_from_small_head.png")
         self.driver.back()
         po.analyst_name_click()
         self.assertEqual('分析师简介', po.page_title())
+        function.insert_img(self.driver, "analyst_detail_from_name.png")
 
     def test_analyst_focus(self):
         '''小浮框关注分析师'''

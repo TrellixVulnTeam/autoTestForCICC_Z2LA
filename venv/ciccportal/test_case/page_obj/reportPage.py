@@ -5,7 +5,7 @@ from time import sleep
 
 class report(Page):
     '''
-    中金研报研报
+    中金研究研报
     '''
 
     #研报列表
