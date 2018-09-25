@@ -21,7 +21,7 @@ class loginTest(myunit.MyTest):
 
     def test_login2(self):
         '''用户名正确，密码为空'''
-        self.user_login_verify(username='manager@cicc.com')
+        self.user_login_verify(username='manager@niub.la')
         po = login(self.driver)
         self.assertEqual(po.error_hint(),'请输入账号和密码后登录！')
         function.insert_img(self.driver, "pawd_empty.png")
@@ -36,7 +36,7 @@ class loginTest(myunit.MyTest):
     def test_login4(self):
         '''用户名密码不匹配'''
         charactor = random.randint(1,100)
-        username = "manager" + str(charactor) + "@cicc.com"
+        username = "manager" + str(charactor) + "@niub.la"
         self.user_login_verify(username=username, password='111111')
         po = login(self.driver)
         self.assertEqual(po.error_hint(), '密码错误，还剩4次机会！')
@@ -44,9 +44,9 @@ class loginTest(myunit.MyTest):
 
     def test_login5(self):
         '''用户名、密码正确'''
-        self.user_login_verify(username='manager@cicc.com', password='111111')
+        self.user_login_verify(username='manager@niub.la', password='111111')
         po = login(self.driver)       
-        self.assertEqual(po.login_success(), 'manager@cicc.com')
+        self.assertEqual(po.login_success(), 'manager@niub.la')
         function.insert_img(self.driver, "user_pawd_true.png")
 
 
